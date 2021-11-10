@@ -5,11 +5,11 @@ function getSize() {
 }
 
 function getPositionTop() {
-    return (Math.random() * 400);
+    return (Math.random() * $("body").css("height"));
 }
 
 function getPositionLeft() {
-    return (Math.random() * 800);
+    return (Math.random() * $("body").css("width"));
 }
 
 function getColor() {
