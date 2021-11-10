@@ -9,7 +9,7 @@ function getPositionTop() {
 }
 
 function getPositionLeft() {
-    return (Math.random() * document.body.clientWidth));
+    return (Math.random() * document.body.clientWidth);
 }
 
 function getColor() {
